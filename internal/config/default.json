@@ -1,0 +1,170 @@
+{
+  "default_branch_prefix": "feature",
+  "default_commit_prefix": "feat",
+  "emojis_enabled": true,
+  "branch_types":[
+    {
+      "type": "feature",
+      "description": "A new feature",
+      "prefix": "feat"
+    },
+    {
+      "type": "bugfix",
+      "description": "A bug fix",
+      "prefix": "fix"
+    },
+    {
+      "type": "hotfix",
+      "description": "A critical fix in production",
+      "prefix": "hotfix"
+    },
+    {
+      "type": "release",
+      "description": "A release branch",
+      "prefix": "release"
+    },
+    {
+      "type": "chore",
+      "description": "Other changes that don't modify src or test files",
+      "prefix": "chore"
+    },
+    {
+      "type": "documentation",
+      "description": "Documentation changes",
+      "prefix": "docs"
+    },
+    {
+      "type": "style",
+      "description": "Code style changes (formatting, missing semi colons, etc)",
+      "prefix": "style"
+    },
+    {
+      "type": "refactor",
+      "description": "Code refactoring without changes in functionality",
+      "prefix": "refactor"
+    },
+    {
+      "type": "performance",
+      "description": "Code changes that improve performance",
+      "prefix": "perf"
+    },
+    {
+      "type": "test",
+      "description": "Adding missing tests or correcting existing tests",
+      "prefix": "test"
+    },
+    {
+      "type": "ci",
+      "description": "Changes to CI configuration files and scripts",
+      "prefix": "ci"
+    },
+    {
+      "type": "build",
+      "description": "Changes that affect the build system or external dependencies",
+      "prefix": "build"
+    },
+    {
+      "type": "security",
+      "description": "Fixing security issues",
+      "prefix": "security"
+    },
+    {
+      "type": "dependency",
+      "description": "Dependency updates",
+      "prefix": "deps"
+    },
+    {
+      "type": "revert",
+      "description": "Reverts a previous commit",
+      "prefix": "revert"
+    }
+  ]
+,
+  "commit_types": [
+    {
+      "type": "feat",
+      "description": "A new feature",
+      "emoji": "✨"
+    },
+    {
+      "type": "fix",
+      "description": "A bug fix",
+      "emoji": "🐛"
+    },
+    {
+      "type": "hotfix",
+      "description": "A critical fix in production",
+      "emoji": "🚑️"
+    },
+    {
+      "type": "docs",
+      "description": "Documentation changes",
+      "emoji": "📚"
+    },
+    {
+      "type": "style",
+      "description": "Code style changes (formatting, missing semi colons, etc)",
+      "emoji": "💄"
+    },
+    {
+      "type": "refactor",
+      "description": "Code refactoring without changes in functionality",
+      "emoji": "♻️"
+    },
+    {
+      "type": "perf",
+      "description": "Code changes that improve performance",
+      "emoji": "⚡"
+    },
+    {
+      "type": "test",
+      "description": "Adding missing tests or correcting existing tests",
+      "emoji": "✅"
+    },
+    {
+      "type": "ci",
+      "description": "Changes to CI configuration files and scripts",
+      "emoji": "👷"
+    },
+    {
+      "type": "build",
+      "description": "Changes that affect the build system or external dependencies",
+      "emoji": "🏗️"
+    },
+    {
+      "type": "chore",
+      "description": "Other changes that don't modify src or test files",
+      "emoji": "🔧"
+    },
+    {
+      "type": "revert",
+      "description": "Reverts a previous commit",
+      "emoji": "⏪"
+    },
+    {
+      "type": "security",
+      "description": "Fixing security issues",
+      "emoji": "🔒"
+    },
+    {
+      "type": "deps",
+      "description": "Dependency updates",
+      "emoji": "📦"
+    },
+    {
+      "type": "wip",
+      "description": "Work in progress",
+      "emoji": "🚧"
+    },
+    {
+      "type": "init",
+      "description": "Initial commit",
+      "emoji": "🎉"
+    },
+    {
+      "type": "config",
+      "description": "Configuration changes",
+      "emoji": "🔧"
+    }
+  ]
+}
