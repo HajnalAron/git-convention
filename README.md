@@ -142,10 +142,6 @@ This configuration allows for extensive customization of branch and commit types
 
 Contributions to Git Convention CLI are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Support
 
 If you encounter any problems or have any questions, please open an issue on the GitHub repository.
