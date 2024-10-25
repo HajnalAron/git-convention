@@ -32,29 +32,29 @@ Git Convention CLI provides the following commands:
 ### Basic Usage
 
 ```
-git-convention [command] [flags]
+git-convention-cli [command] [flags]
 ```
 
 ### Available Commands
 
 1. Create a branch:
    ```
-   git-convention branch
+   git-convention-cli branch
    ```
 
 2. Create a commit message:
    ```
-   git-convention commit
+   git-convention-cli commit
    ```
 
 3. View configuration:
    ```
-   git-convention config view
+   git-convention-cli config view
    ```
 
 4. Get help:
    ```
-   git-convention help [command]
+   git-convention-cli help [command]
    ```
 
 ### Flags
